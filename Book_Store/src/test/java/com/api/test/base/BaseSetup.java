@@ -9,6 +9,7 @@ import org.testng.annotations.BeforeSuite;
 import io.restassured.RestAssured;
 import io.restassured.builder.RequestSpecBuilder;
 
+@SuppressWarnings("unused")
 public class BaseSetup{
     @BeforeSuite
     public static void setUp() {
